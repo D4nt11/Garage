@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+.header {
+    box-shadow: 0 2px 5px rgb(255, 145, 0);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0%;
+    z-index: 1;
+}
+
+.nazvanie-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nazvanie {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (min-width: 697px) {
+    .big {
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 50px; */
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 697px) {
+    .big {
+        display: flex;
+        justify-content: center;
+        /* margin-top: 20px; */
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+}
+
+.BLOK {
+    margin-top: 20%;
+    height: 230px;
+    width: 300px;
+    border: 5px solid white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.BLOK:hover {
+    transform: scale(1.1);
+}
+
+.nazvanie-bloki {
+    background-color: rgb(252, 252, 252);
+}
+
+.nazvanie-bloki-link {
+    text-decoration: none;
+    color: black
+}
+
+.photo1 {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 697px) {
+    .statia {
+        text-align: center;
+        margin: 5%;
+        box-shadow: 0 0 5px 2px gray;
+        max-width: 600px;
+        padding: 2%;
+        border-radius: 3px;
+        margin-top: 15%;
+    }
+
+    .blok-knopka {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .knopka {
+        width: 150px;
+        height: 50px;
+        background-color: rgb(255, 145, 0);
+        color: white;
+    }
+}
+
+@media screen and (min-width: 697px) {
+    .statia {
+        text-align: center;
+        margin: 5%;
+        box-shadow: 0 0 5px 2px gray;
+        max-width: 600px;
+        padding: 2%;
+        border-radius: 3px;
+        margin-top: 5%;
+    }
+
+    .blok-knopka {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .knopka {
+        width: 200px;
+        height: 50px;
+        background-color: rgb(255, 145, 0);
+        color: white;
+    }
+}
+
+.bloki {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paragraf {
+    max-width: 600px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.photo2 {
+    max-width: 600px;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.nazv1 {
+    font-size: 2cap;
+    font-weight: bold;
+}
+
+.photo2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
